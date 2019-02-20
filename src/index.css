@@ -9,4 +9,37 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  /* background-image: url(./images/jones.jpg); */
+}
+
+.FirstSection {
+  display: flex;
+  margin: 5rem;
+}
+.SecondSection {
+  flex: 1;
+  background-color: #fff;
+  -webkit-animation: random 5s infinite;
+  animation: random 5s infinite;
+}
+.ImageSection {
+  flex: 1;
+}
+
+@keyframes random {
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: yellow;
+  }
+  45% {
+    background-color: green;
+  }
+  60% {
+    background-color: blue;
+  }
+  75% {
+    background-color: white;
+  }
 }
