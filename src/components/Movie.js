@@ -7,6 +7,7 @@ class Movie extends Component {
       <div className="FirstSection">
         <div className="SecondSection">
           <h3>{this.props.title}</h3>
+          <p>{this.props.dateMovie}</p>
           <p>{this.props.detail}</p>
         </div>
         <img
@@ -14,6 +15,7 @@ class Movie extends Component {
           src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${
             this.props.urlImg
           }`}
+          alt={this.props.title}
         />
       </div>
     )

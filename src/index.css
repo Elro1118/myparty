@@ -7,23 +7,32 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: space-around;
   margin: 0;
   min-height: 100%;
+  background: lightslategray;
   /* background-image: url(./images/jones.jpg); */
 }
 
 .FirstSection {
   display: flex;
-  margin: 5rem;
+  margin: 1rem;
+  width: 20rem;
 }
 .SecondSection {
   flex: 1;
+  padding: 1rem;
   background-color: #fff;
   -webkit-animation: random 5s infinite;
   animation: random 5s infinite;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .ImageSection {
   flex: 1;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 @keyframes random {
@@ -40,6 +49,6 @@ body {
     background-color: blue;
   }
   75% {
-    background-color: white;
+    background-color: violet;
   }
 }
