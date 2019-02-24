@@ -18,7 +18,7 @@ body {
 .FirstSection {
   display: flex;
   margin: 1rem;
-  width: 20rem;
+  width: 25rem;
 }
 .SecondSection {
   flex: 1;

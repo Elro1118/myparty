@@ -7,7 +7,7 @@ class Movie extends Component {
       <div className="FirstSection">
         <div className="SecondSection">
           <h3>{this.props.title}</h3>
-          <p>{this.props.dateMovie}</p>
+          <p className="date-section">{this.props.dateMovie}</p>
           <p>{this.props.detail}</p>
         </div>
         <img
